@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --font:'Raleway', sans-serif;
+    --color-one:#8261EE;
+    --color-two:#F958A2;
+    --color-text:#777777;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: var(--font);
+}
+::selection {
+    background: #ff589e;
+    color: #fff;
+  }
+.Button{
+    color: #ffffff;
+    background-color:var(--color-two);
+    border-radius: 40px;
+    border: 0px;
+    font-size: 12px;
+    padding: 14px 20px;
+    font-size: 17px;
+
+}
+.Button:hover{
+    background-color: var(--color-one);
+    color: #ffffff;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+}
+.content{
+    text-align: center;  
+}
+.content h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.content p{
+    color: var(--color-text);
+    margin-bottom: 60px;
+}
